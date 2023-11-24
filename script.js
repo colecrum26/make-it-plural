@@ -7,8 +7,8 @@ input.addEventListener("change", (e) => {
     name.charAt(name.length - 1) === "s" ||
     name.charAt(name.length - 1) === "x"
   ) {
-    return (output.innerHTML = name + "es");
+    return (output.innerHTML = name.charAt(0).toUpperCase() + name.slice(1) + "es");
   } else {
-    return (output.innerHTML = name + "s");
+    return (output.innerHTML = name.charAt(0).toUpperCase() + name.slice(1) + "s");
   }
 });
