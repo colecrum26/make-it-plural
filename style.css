@@ -1,0 +1,16 @@
+h3 { 
+    border-bottom: 2px solid black;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.instructions {
+    margin: 10px;
+}
+

@@ -1,7 +1,7 @@
 const input = document.querySelector("#type-here");
 const output = document.querySelector("#output");
 
-input.addEventListener("input", (e) => {
+input.addEventListener("change", (e) => {
   let name = e.target.value;
   if (
     name.charAt(name.length - 1) === "s" ||
