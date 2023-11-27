@@ -14,3 +14,10 @@ h3 {
     margin: 10px;
 }
 
+#rules {
+    border: 2px solid black;
+    border-radius: 2px;
+    padding: 4px;
+    text-decoration: none;
+}
+
