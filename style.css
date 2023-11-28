@@ -5,6 +5,7 @@ body {
 
 p {
     width: 75%;
+    text-align: center;
 }
 
 input {
@@ -17,15 +18,16 @@ input {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 20px 0;
 }
 
 .instructions {
     margin: 10px;
 }
 
-
 #rules {
     border: 2px solid black;
+    box-shadow: 1px 1px 2px black;
     border-radius: 4px;
     padding: 4px;
     text-decoration: none;
@@ -38,5 +40,16 @@ input {
 #rules:hover {
     color: white;
     background-color: blue;
+    box-shadow: 1px 1px 2px blue;
+}
+
+@media screen and (max-width: 460px){
+    p {
+        text-align: left;
+    }
+
+    #rules:hover {
+        box-shadow: none;
+    }
 }
 
