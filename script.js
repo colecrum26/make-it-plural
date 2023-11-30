@@ -1,5 +1,5 @@
-const input = document.querySelector("#type-here");
-const output = document.querySelector("#output");
+const input = document.getElementById("type-here");
+const output = document.getElementById("output");
 
 input.addEventListener("change", (e) => {
   let name = e.target.value;
