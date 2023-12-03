@@ -4,12 +4,20 @@ const goBtn = document.getElementById("go-btn");
 
 goBtn.addEventListener("click", () => {
   let name = input.value;
-  if (
+  if (name.slice(-4) === "eaux") {
+    return (output.innerHTML =
+      name.charAt(0).toUpperCase() + name.slice(1) + "s");
+  } else if (
     name.charAt(name.length - 1) === "s" ||
-    name.charAt(name.length - 1) === "x"
+    name.charAt(name.length - 1) === "x" ||
+    name.charAt(name.length - 1) === "z" ||
+    name.slice(-2) === "ch" ||
+    name.slice(-2) === "zh"
   ) {
-    return (output.innerHTML = name.charAt(0).toUpperCase() + name.slice(1) + "es");
+    return (output.innerHTML =
+      name.charAt(0).toUpperCase() + name.slice(1) + "es");
   } else {
-    return (output.innerHTML = name.charAt(0).toUpperCase() + name.slice(1) + "s");
+    return (output.innerHTML =
+      name.charAt(0).toUpperCase() + name.slice(1) + "s");
   }
-})
+});
