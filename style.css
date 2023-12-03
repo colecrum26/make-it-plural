@@ -43,6 +43,9 @@ input {
     background-color: blue;
     box-shadow: 1px 1px 2px blue;
 }
+#rules:active {
+    box-shadow: none;
+}
 
 @media screen and (max-width: 470px){
     p {
