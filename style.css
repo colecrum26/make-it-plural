@@ -5,6 +5,8 @@ body {
 
 h1 {
     text-align: center;
+    margin: 20px;
+    padding: 0;
 }
 
 p {
@@ -30,11 +32,16 @@ input {
     margin: 10px;
 }
 
+.io-container {
+    min-height: 108px;
+}
+
 #rules {
     border: 2px solid black;
     box-shadow: 1px 1px 2px black;
     border-radius: 4px;
     padding: 4px;
+    margin-top: 40px;
     text-decoration: none;
 }
 
@@ -56,7 +63,7 @@ input {
         text-align: left;
     }
 
-    #rules:hover {
+    #rules:hover, #rules:active {
         box-shadow: none;
     }
 }
