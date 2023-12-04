@@ -41,12 +41,17 @@ button {
     min-height: 118px;
 }
 
+#note {
+    font-size: 1rem;
+    color: rgb(98, 98, 98);
+}
+
 #rules {
     border: 2px solid black;
     box-shadow: 1px 1px 2px black;
     border-radius: 4px;
     padding: 4px;
-    margin-top: 40px;
+    margin-top: 10px;
     text-decoration: none;
 }
 
