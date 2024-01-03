@@ -6,8 +6,12 @@
     <title>Make-it-Plural</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body>
+  <body class="dark-theme || light-theme">
     <div class="container">
+      <div class="switch">
+        <input id="checkbox1" class="look" type="checkbox">
+        <label for="checkbox1" id="theme-btn"></label>
+      </div>
       <p class="instructions">
         Sometimes, using the right grammar to make a word plural is hard.
       </p>
@@ -15,14 +19,14 @@
         Enter a word to find the correct plural form!
       </p>
       <div class="io-container">
-        <input type="text" name="type-here" id="type-here" />
-        <button id="go-btn">Go</button>
-        <h1 id="output"></h1>
+        <input type="text" name="type-here" class="type-here" id="type-here" />
+        <button class="go-btn" id="go-btn">Go</button>
+        <h1 class="output" id="output"></h1>
       </div>
-      <p id="note">Note: This tool is especially helpful for last names.</p>
+      <p class="note">Note: This tool is especially helpful for last names.</p>
       <a
       href="https://www.realsimple.com/work-life/work-life-etiquette/how-to-pluralize-last-names#:~:text=You%20never%20need%20an%20apostrophe%20when%20signing%20or%20addressing%20cards.%20(Apostrophes%20imply%20possession%2C%20which%20isn%27t%20what%20you%27re%20trying%20to%20do.%20You%27re%20simply%20naming%20them%20in%20the%20plural.)"
-        id="rules"
+        class="rules"
         >Plural Rules</a>
     </div>
     <script src="./script.js"></script>
