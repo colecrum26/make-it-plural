@@ -3,10 +3,6 @@ const output = document.getElementById("output");
 const goBtn = document.getElementById("go-btn");
 const themeBtn = document.getElementById("theme-btn");
 
-// window.addEventListener("load", () => {
-//   document.body.style.background = "background 2s";
-// })
-
 goBtn.addEventListener("click", () => {
   let name = input.value;
   if (name) {
@@ -27,7 +23,7 @@ goBtn.addEventListener("click", () => {
         name.charAt(0).toUpperCase() + name.slice(1) + "s");
     }
   } else {
-     window.alert("Whoops! Please enter a name or word.")
+     window.alert("Whoops, I can't work my magic without a word!")
   }
 });
 
