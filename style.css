@@ -10,9 +10,6 @@ body.dark-theme {
   margin: 0;
   padding: 0;
 }
-.body.dark-theme a {
-  color: #809fff;
-}
 
 h1 {
   text-align: center;
@@ -27,20 +24,17 @@ p {
 }
 
 a {
-  border: 2px solid black;
-  box-shadow: 1px 1px 2px black;
+  border: 2px solid #cacaca;
+  box-shadow: 1px 1px 2px #cacaca;
   border-radius: 4px;
   padding: 4px;
   margin-top: 10px;
   text-decoration: none;
 }
-a.dark-theme {
-  color: #cacaca;
-}
 
 a:link,
 a:visited {
-  color: black;
+  color: #cacaca;
 }
 
 a:hover {
@@ -130,8 +124,8 @@ button {
     text-align: left;
   }
 
-  .rules:hover,
-  .rules:active {
+  a:hover,
+  a:active {
     box-shadow: none;
   }
 }
