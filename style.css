@@ -4,12 +4,12 @@ body {
   margin: 0;
   padding: 0;
 }
-body.dark-theme {
+/* body.dark-theme {
   color: #cacaca;
   background: #121212;
   margin: 0;
   padding: 0;
-}
+} */
 
 h1 {
   text-align: center;
@@ -24,8 +24,8 @@ p {
 }
 
 a {
-  border: 2px solid #cacaca;
-  box-shadow: 1px 1px 2px #cacaca;
+  border: 2px solid #121212;
+  box-shadow: 1px 1px 2px #121212;
   border-radius: 4px;
   padding: 4px;
   margin-top: 10px;
@@ -34,7 +34,7 @@ a {
 
 a:link,
 a:visited {
-  color: #cacaca;
+  color: #121212;
 }
 
 a:hover {
@@ -78,6 +78,7 @@ button {
   color: rgb(98, 98, 98);
 }
 
+/* 
 .switch {
   position: relative;
   align-self: flex-end;
@@ -116,7 +117,7 @@ button {
 
 .switch .look:checked + label {
   background-color: lightsteelblue;
-}
+} */
 
 @media screen and (max-width: 470px) {
   p {
